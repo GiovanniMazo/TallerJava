@@ -1,2 +1,28 @@
 # TallerJava
-Presento un código para un programa de trabajadores, donde muestra incapacidades, novedades y  jornada
+
+
+public class Jornada {
+        private int horas;
+    private String fechaInicio;
+    private String fechaFin;
+    
+    // Constructor
+    public Jornada(int horas, String fechaInicio, String fechaFin) {
+        this.horas = horas;
+        this.fechaInicio = fechaInicio;
+        this.fechaFin = fechaFin;
+    }
+    
+    // Getters y Setters
+    public int getHoras() {
+        return horas;
+    }
+    
+    public String getFechaInicio() {
+        return fechaInicio;
+    }
+    
+    public String getFechaFin() {
+        return fechaFin;
+    }
+}
